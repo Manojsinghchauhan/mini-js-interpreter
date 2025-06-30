@@ -29,8 +29,11 @@ MiniJS is a lightweight interpreter written in C that supports a subset of JavaS
 
 ## Project Structure
 ├── main.c # Entry point
+
 ├── lexer.c / lexer.h # Tokenizer (lexer)
+
 ├── parser.c / parser.h # Recursive descent parser and evaluator
+
 ├── interpreter.c / interpreter.h # Symbol table and execution logic
 
 ## Build Instructions
